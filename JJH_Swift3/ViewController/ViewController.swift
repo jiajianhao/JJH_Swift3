@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var baseInfo = ["let&var","DataType"]
-    var widgets = ["Label+Button","Text","Table"]
+    var baseInfo_arr = ["let&var","DataType"]
+    var widgets_arr = ["Label+Button","Text","Table"]
+    var video_arr = ["audio","video"]
     
     let mButton = UIButton()
     var mTableView = UITableView()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,15 +32,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 3
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section==0 {
-            return baseInfo.count
+            return baseInfo_arr.count
 
         }
         if section==1 {
-            return widgets.count
+            return widgets_arr.count
+        }
+        if section==2 {
+            return video_arr.count
         }
         
         return 0
@@ -61,23 +64,42 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell : UITableViewCell = UITableViewCell()
  
         if indexPath.section == 0 {
-            cell.textLabel?.text = baseInfo[indexPath.row]
+            cell.textLabel?.text = baseInfo_arr[indexPath.row]
 
         }
         if indexPath.section == 1 {
-            cell.textLabel?.text = widgets[indexPath.row]
+            cell.textLabel?.text = widgets_arr[indexPath.row]
 
+        }
+        if indexPath.section == 2 {
+            cell.textLabel?.text = video_arr[indexPath.row]
+            
         }
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView .deselectRow(at: indexPath, animated: true)
-        if indexPath.row == 0 && indexPath.section==0{
-            let setvalueview = SetValueViewController()
-            setvalueview.title=baseInfo[indexPath.row]
-            self.navigationController?.pushViewController(setvalueview, animated: true)
+        
+        if indexPath.section == 0 {
+            if indexPath.row == 0 {
+                let view1 = SetValueViewController()
+                view1.title=baseInfo_arr[indexPath.row]
+                self.navigationController?.pushViewController(view1, animated: true)
+            }
         }
+        if indexPath.section == 1 {
+            if indexPath.row == 2 {
+                let view1 = TableViewController()
+                view1.title=widgets_arr[indexPath.row]
+                self.navigationController?.pushViewController(view1, animated: true)
+            }
+        }
+        if indexPath.section == 2 {
+            
+        }
+        
+        
         
     }
     

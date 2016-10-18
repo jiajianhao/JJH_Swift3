@@ -1,14 +1,14 @@
 //
-//  DataTypeViewController.swift
+//  ButtonViewController.swift
 //  JJH_Swift3
 //
 //  Created by Jiajianhao on 2016/10/17.
 //  Copyright © 2016年 com.TongHaoDevelopment. All rights reserved.
-//
+//  燕子不归春事晚，一汀烟雨杏花寒
 
 import UIKit
 
-class DataTypeViewController: UIViewController {
+class ButtonViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -1,18 +1,17 @@
 //
-//  TextViewController.swift
+//  AudioViewController.swift
 //  JJH_Swift3
 //
-//  Created by Jiajianhao on 2016/10/17.
+//  Created by Jiajianhao on 2016/10/18.
 //  Copyright © 2016年 com.TongHaoDevelopment. All rights reserved.
 //
 
 import UIKit
 
-class TextViewController: UIViewController {
+class AudioViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor=UIColor.white
 
         // Do any additional setup after loading the view.
     }

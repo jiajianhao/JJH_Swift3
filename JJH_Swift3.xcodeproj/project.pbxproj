@@ -7,31 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA214A671DB5C7C2003D793B /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A661DB5C7C2003D793B /* CityTableViewCell.swift */; };
+		FA214A711DB5C81F003D793B /* DataTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A6A1DB5C81F003D793B /* DataTypeViewController.swift */; };
+		FA214A721DB5C81F003D793B /* SetValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A6B1DB5C81F003D793B /* SetValueViewController.swift */; };
+		FA214A731DB5C81F003D793B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A6C1DB5C81F003D793B /* ViewController.swift */; };
+		FA214A741DB5C81F003D793B /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A6E1DB5C81F003D793B /* ButtonViewController.swift */; };
+		FA214A751DB5C81F003D793B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A6F1DB5C81F003D793B /* TableViewController.swift */; };
+		FA214A761DB5C81F003D793B /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A701DB5C81F003D793B /* TextViewController.swift */; };
+		FA214A7F1DB5D237003D793B /* city@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA214A7E1DB5D237003D793B /* city@2x.png */; };
+		FA214A811DB5D28A003D793B /* MyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A801DB5D28A003D793B /* MyConstant.swift */; };
+		FA214A851DB5D4A5003D793B /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A841DB5D4A5003D793B /* AudioViewController.swift */; };
+		FA214A871DB5D4B1003D793B /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A861DB5D4B1003D793B /* VideoViewController.swift */; };
 		FAE29BFE1DB4952B00E04D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE29BFD1DB4952B00E04D50 /* AppDelegate.swift */; };
-		FAE29C001DB4952B00E04D50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE29BFF1DB4952B00E04D50 /* ViewController.swift */; };
 		FAE29C031DB4952B00E04D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE29C011DB4952B00E04D50 /* Main.storyboard */; };
 		FAE29C051DB4952B00E04D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE29C041DB4952B00E04D50 /* Assets.xcassets */; };
 		FAE29C081DB4952B00E04D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE29C061DB4952B00E04D50 /* LaunchScreen.storyboard */; };
-		FAE29C201DB4BAC700E04D50 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE29C1A1DB4BAC700E04D50 /* ButtonViewController.swift */; };
-		FAE29C211DB4BAC700E04D50 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE29C1B1DB4BAC700E04D50 /* TableViewController.swift */; };
-		FAE29C221DB4BAC700E04D50 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE29C1C1DB4BAC700E04D50 /* TextViewController.swift */; };
-		FAE29C231DB4BAC700E04D50 /* DataTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE29C1E1DB4BAC700E04D50 /* DataTypeViewController.swift */; };
-		FAE29C241DB4BAC700E04D50 /* SetValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE29C1F1DB4BAC700E04D50 /* SetValueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA214A661DB5C7C2003D793B /* CityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		FA214A6A1DB5C81F003D793B /* DataTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTypeViewController.swift; sourceTree = "<group>"; };
+		FA214A6B1DB5C81F003D793B /* SetValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetValueViewController.swift; sourceTree = "<group>"; };
+		FA214A6C1DB5C81F003D793B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA214A6E1DB5C81F003D793B /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		FA214A6F1DB5C81F003D793B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FA214A701DB5C81F003D793B /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		FA214A7E1DB5D237003D793B /* city@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "city@2x.png"; sourceTree = "<group>"; };
+		FA214A801DB5D28A003D793B /* MyConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConstant.swift; sourceTree = "<group>"; };
+		FA214A841DB5D4A5003D793B /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		FA214A861DB5D4B1003D793B /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		FAE29BFA1DB4952B00E04D50 /* JJH_Swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJH_Swift3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE29BFD1DB4952B00E04D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAE29BFF1DB4952B00E04D50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAE29C021DB4952B00E04D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE29C041DB4952B00E04D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE29C071DB4952B00E04D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE29C091DB4952B00E04D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAE29C1A1DB4BAC700E04D50 /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
-		FAE29C1B1DB4BAC700E04D50 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		FAE29C1C1DB4BAC700E04D50 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
-		FAE29C1E1DB4BAC700E04D50 /* DataTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTypeViewController.swift; sourceTree = "<group>"; };
-		FAE29C1F1DB4BAC700E04D50 /* SetValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetValueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,92 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA214A621DB5C77F003D793B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FA214A821DB5D457003D793B /* Video */,
+				FA214A7C1DB5D237003D793B /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FA214A631DB5C77F003D793B /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		FA214A651DB5C79C003D793B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA214A661DB5C7C2003D793B /* CityTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA214A681DB5C81F003D793B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA214A6C1DB5C81F003D793B /* ViewController.swift */,
+				FA214A691DB5C81F003D793B /* BaseInfo */,
+				FA214A831DB5D472003D793B /* Video&Audio */,
+				FA214A6D1DB5C81F003D793B /* Widgets */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FA214A691DB5C81F003D793B /* BaseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FA214A6A1DB5C81F003D793B /* DataTypeViewController.swift */,
+				FA214A6B1DB5C81F003D793B /* SetValueViewController.swift */,
+			);
+			path = BaseInfo;
+			sourceTree = "<group>";
+		};
+		FA214A6D1DB5C81F003D793B /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				FA214A6E1DB5C81F003D793B /* ButtonViewController.swift */,
+				FA214A6F1DB5C81F003D793B /* TableViewController.swift */,
+				FA214A701DB5C81F003D793B /* TextViewController.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		FA214A7C1DB5D237003D793B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FA214A7D1DB5D237003D793B /* Widget */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		FA214A7D1DB5D237003D793B /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FA214A7E1DB5D237003D793B /* city@2x.png */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		FA214A821DB5D457003D793B /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		FA214A831DB5D472003D793B /* Video&Audio */ = {
+			isa = PBXGroup;
+			children = (
+				FA214A841DB5D4A5003D793B /* AudioViewController.swift */,
+				FA214A861DB5D4B1003D793B /* VideoViewController.swift */,
+			);
+			path = "Video&Audio";
+			sourceTree = "<group>";
+		};
 		FAE29BF11DB4952B00E04D50 = {
 			isa = PBXGroup;
 			children = (
@@ -64,35 +160,18 @@
 		FAE29BFC1DB4952B00E04D50 /* JJH_Swift3 */ = {
 			isa = PBXGroup;
 			children = (
+				FA214A681DB5C81F003D793B /* ViewController */,
+				FA214A651DB5C79C003D793B /* Views */,
+				FA214A621DB5C77F003D793B /* Resource */,
+				FA214A631DB5C77F003D793B /* Items */,
 				FAE29BFD1DB4952B00E04D50 /* AppDelegate.swift */,
-				FAE29BFF1DB4952B00E04D50 /* ViewController.swift */,
-				FAE29C1D1DB4BAC700E04D50 /* BaseInfo */,
-				FAE29C191DB4BAC700E04D50 /* Widgets */,
 				FAE29C011DB4952B00E04D50 /* Main.storyboard */,
 				FAE29C041DB4952B00E04D50 /* Assets.xcassets */,
 				FAE29C061DB4952B00E04D50 /* LaunchScreen.storyboard */,
 				FAE29C091DB4952B00E04D50 /* Info.plist */,
+				FA214A801DB5D28A003D793B /* MyConstant.swift */,
 			);
 			path = JJH_Swift3;
-			sourceTree = "<group>";
-		};
-		FAE29C191DB4BAC700E04D50 /* Widgets */ = {
-			isa = PBXGroup;
-			children = (
-				FAE29C1A1DB4BAC700E04D50 /* ButtonViewController.swift */,
-				FAE29C1B1DB4BAC700E04D50 /* TableViewController.swift */,
-				FAE29C1C1DB4BAC700E04D50 /* TextViewController.swift */,
-			);
-			path = Widgets;
-			sourceTree = "<group>";
-		};
-		FAE29C1D1DB4BAC700E04D50 /* BaseInfo */ = {
-			isa = PBXGroup;
-			children = (
-				FAE29C1E1DB4BAC700E04D50 /* DataTypeViewController.swift */,
-				FAE29C1F1DB4BAC700E04D50 /* SetValueViewController.swift */,
-			);
-			path = BaseInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE29C081DB4952B00E04D50 /* LaunchScreen.storyboard in Resources */,
+				FA214A7F1DB5D237003D793B /* city@2x.png in Resources */,
 				FAE29C051DB4952B00E04D50 /* Assets.xcassets in Resources */,
 				FAE29C031DB4952B00E04D50 /* Main.storyboard in Resources */,
 			);
@@ -167,13 +247,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE29C231DB4BAC700E04D50 /* DataTypeViewController.swift in Sources */,
-				FAE29C221DB4BAC700E04D50 /* TextViewController.swift in Sources */,
-				FAE29C001DB4952B00E04D50 /* ViewController.swift in Sources */,
-				FAE29C201DB4BAC700E04D50 /* ButtonViewController.swift in Sources */,
+				FA214A731DB5C81F003D793B /* ViewController.swift in Sources */,
+				FA214A811DB5D28A003D793B /* MyConstant.swift in Sources */,
+				FA214A751DB5C81F003D793B /* TableViewController.swift in Sources */,
+				FA214A711DB5C81F003D793B /* DataTypeViewController.swift in Sources */,
 				FAE29BFE1DB4952B00E04D50 /* AppDelegate.swift in Sources */,
-				FAE29C241DB4BAC700E04D50 /* SetValueViewController.swift in Sources */,
-				FAE29C211DB4BAC700E04D50 /* TableViewController.swift in Sources */,
+				FA214A671DB5C7C2003D793B /* CityTableViewCell.swift in Sources */,
+				FA214A871DB5D4B1003D793B /* VideoViewController.swift in Sources */,
+				FA214A741DB5C81F003D793B /* ButtonViewController.swift in Sources */,
+				FA214A721DB5C81F003D793B /* SetValueViewController.swift in Sources */,
+				FA214A761DB5C81F003D793B /* TextViewController.swift in Sources */,
+				FA214A851DB5D4A5003D793B /* AudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +417,7 @@
 				FAE29C0E1DB4952B00E04D50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
