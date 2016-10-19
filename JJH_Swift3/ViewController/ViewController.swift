@@ -19,6 +19,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isTranslucent=false
+
         self.view.backgroundColor=UIColor.white
         self.title="Swift3"
         // Do any additional setup after loading the view, typically from a nib.
@@ -37,7 +39,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section==0 {
             return baseInfo_arr.count
-
         }
         if section==1 {
             return widgets_arr.count
@@ -65,15 +66,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
  
         if indexPath.section == 0 {
             cell.textLabel?.text = baseInfo_arr[indexPath.row]
-
         }
         if indexPath.section == 1 {
             cell.textLabel?.text = widgets_arr[indexPath.row]
-
         }
         if indexPath.section == 2 {
             cell.textLabel?.text = video_arr[indexPath.row]
-            
         }
         return cell
     }
@@ -120,16 +118,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     
-    
-    
-    
-    func pressBtn(sender : UIButton)  {
-         //        if sender.tag==1 {
-        self.navigationController?.pushViewController(SetValueViewController(), animated: true)
-        //        }
-        
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -18,6 +18,8 @@
 		FA214A811DB5D28A003D793B /* MyConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A801DB5D28A003D793B /* MyConstant.swift */; };
 		FA214A851DB5D4A5003D793B /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A841DB5D4A5003D793B /* AudioViewController.swift */; };
 		FA214A871DB5D4B1003D793B /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA214A861DB5D4B1003D793B /* VideoViewController.swift */; };
+		FA3E361D1DB75AD7000B63AA /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E361C1DB75AD7000B63AA /* UIColor+extension.swift */; };
+		FA3E361F1DB7A23D000B63AA /* ImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3E361E1DB7A23D000B63AA /* ImageViewViewController.swift */; };
 		FAE29BFE1DB4952B00E04D50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE29BFD1DB4952B00E04D50 /* AppDelegate.swift */; };
 		FAE29C031DB4952B00E04D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE29C011DB4952B00E04D50 /* Main.storyboard */; };
 		FAE29C051DB4952B00E04D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE29C041DB4952B00E04D50 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 		FA214A801DB5D28A003D793B /* MyConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyConstant.swift; sourceTree = "<group>"; };
 		FA214A841DB5D4A5003D793B /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		FA214A861DB5D4B1003D793B /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		FA3E361C1DB75AD7000B63AA /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		FA3E361E1DB7A23D000B63AA /* ImageViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewViewController.swift; sourceTree = "<group>"; };
 		FAE29BFA1DB4952B00E04D50 /* JJH_Swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJH_Swift3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE29BFD1DB4952B00E04D50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE29C021DB4952B00E04D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				FA214A6C1DB5C81F003D793B /* ViewController.swift */,
+				FA3E361C1DB75AD7000B63AA /* UIColor+extension.swift */,
 				FA214A691DB5C81F003D793B /* BaseInfo */,
 				FA214A831DB5D472003D793B /* Video&Audio */,
 				FA214A6D1DB5C81F003D793B /* Widgets */,
@@ -105,6 +110,7 @@
 				FA214A6E1DB5C81F003D793B /* ButtonViewController.swift */,
 				FA214A6F1DB5C81F003D793B /* TableViewController.swift */,
 				FA214A701DB5C81F003D793B /* TextViewController.swift */,
+				FA3E361E1DB7A23D000B63AA /* ImageViewViewController.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -250,6 +256,7 @@
 				FA214A731DB5C81F003D793B /* ViewController.swift in Sources */,
 				FA214A811DB5D28A003D793B /* MyConstant.swift in Sources */,
 				FA214A751DB5C81F003D793B /* TableViewController.swift in Sources */,
+				FA3E361D1DB75AD7000B63AA /* UIColor+extension.swift in Sources */,
 				FA214A711DB5C81F003D793B /* DataTypeViewController.swift in Sources */,
 				FAE29BFE1DB4952B00E04D50 /* AppDelegate.swift in Sources */,
 				FA214A671DB5C7C2003D793B /* CityTableViewCell.swift in Sources */,
@@ -257,6 +264,7 @@
 				FA214A741DB5C81F003D793B /* ButtonViewController.swift in Sources */,
 				FA214A721DB5C81F003D793B /* SetValueViewController.swift in Sources */,
 				FA214A761DB5C81F003D793B /* TextViewController.swift in Sources */,
+				FA3E361F1DB7A23D000B63AA /* ImageViewViewController.swift in Sources */,
 				FA214A851DB5D4A5003D793B /* AudioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +386,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JJH_Swift3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TongHaoDevelopment.JJH-Swift3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,7 +400,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JJH_Swift3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TongHaoDevelopment.JJH-Swift3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
