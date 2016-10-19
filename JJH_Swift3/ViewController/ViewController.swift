@@ -87,8 +87,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 view1.title=baseInfo_arr[indexPath.row]
                 self.navigationController?.pushViewController(view1, animated: true)
             }
+            if indexPath.row == 1 {
+                let view1 = DataTypeViewController()
+                view1.title=baseInfo_arr[indexPath.row]
+                self.navigationController?.pushViewController(view1, animated: true)
+            }
+            
         }
         if indexPath.section == 1 {
+            if indexPath.row == 0 {
+                let view1 = ButtonViewController()
+                view1.title=widgets_arr[indexPath.row]
+                self.navigationController?.pushViewController(view1, animated: true)
+            }
+            if indexPath.row == 1 {
+                let view1 = TextViewController()
+                view1.title=widgets_arr[indexPath.row]
+                self.navigationController?.pushViewController(view1, animated: true)
+            }
             if indexPath.row == 2 {
                 let view1 = TableViewController()
                 view1.title=widgets_arr[indexPath.row]
